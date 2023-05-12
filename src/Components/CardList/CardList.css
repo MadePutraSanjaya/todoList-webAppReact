@@ -1,0 +1,48 @@
+.card {
+    background-color: #40444B;
+    border-radius: 8px;
+    padding: 15px 30px;
+    margin: 20px 0;
+}
+.card-header {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.card-header .card-header-status, .card-header-status span {
+    background-color: #c4c4c4;
+    color: #414141;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px 7px;
+    text-transform: uppercase;
+}
+.card-header .card-header-delete {
+    background-color: #36393F;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+.card-todo {
+        margin-bottom: 15px;
+}
+.card-date-header {
+    justify-content: space-between;
+    display: flex;
+}
+.card-done button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #543fd1;
+    color: #ffffff;
+    font-weight: 700;
+}
+.cardInput {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
