@@ -19,8 +19,8 @@ const BorderList: React.FC<MapPropsType> = ({ complete, InComplete, ActionComple
                   <div
                     className={
                       type === "Complete"
-                        ? "card-header-status bg-primary"
-                        : "card-header-status bg-secondary"
+                        ? "card-header-status bg-secondary"
+                        : "card-header-status bg-primary"
                     }
                   >
                     <span> {type === "Complete" ? "Done" : "Open"} </span>
