@@ -33,7 +33,7 @@ const BorderList: React.FC<MapPropsType> = ({ complete, InComplete, ActionComple
                   </div>
                 </div>
                 <div className="card-todo">
-                  <h3>{todo}</h3>
+                  <h3>{todo}</h3> 
                 </div>
                 <div className="card-date-header">
                   <div className="card-date">
